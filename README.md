@@ -1,4 +1,4 @@
-# Notion-style Productivity App
+# TodoAPP
 
 Aplikacja do zarządzania zadaniami, notatkami i kalendarzem, inspirowana Notion.
 
