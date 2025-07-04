@@ -25,14 +25,14 @@ Aplikacja do zarządzania zadaniami, notatkami i kalendarzem, inspirowana Notion
 ## Uruchomienie
 
 1. Sklonuj repozytorium:  
-   `git clone <adres_repo>`
+   `git clone https://github.com/k0lko/ToDo.git`
 
 2. Backend:  
-   - Przejdź do folderu `backend`  
+   - Przejdź do folderu `./zpo`  
    - Uruchom aplikację (np. `./mvnw spring-boot:run`)
 
 3. Frontend:  
-   - Przejdź do folderu `frontend`  
+   - Przejdź do folderu `./zpo/todo-zpo`  
    - Zainstaluj zależności: `npm install`  
    - Uruchom serwer: `npm run dev`
 
@@ -44,16 +44,3 @@ Aplikacja do zarządzania zadaniami, notatkami i kalendarzem, inspirowana Notion
 
 - `backend` — Spring Boot API i logika serwera  
 - `frontend` — aplikacja React + TS z widokami: Todo, Notes, Calendar, Calculator, Sidebar  
-
----
-
-## Informacje dodatkowe
-
-- Notatki i wydarzenia w kalendarzu są zapisywane lokalnie (localStorage)  
-- Zadania przechowywane w backendzie (PostgreSQL)  
-
----
-
-## Kontakt
-
-W razie pytań lub problemów, proszę o kontakt.
