@@ -1,0 +1,13 @@
+.calendar-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #f5f5f5;
+    background-color: #1e1e2f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+h1 {
+    margin-bottom: 20px;
+}

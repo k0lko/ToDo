@@ -1,0 +1,126 @@
+.notes-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    color: #f5f5f5;
+    background-color: #1e1e2f;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.add-note {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.add-note textarea {
+    resize: vertical;
+    padding: 16px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid #444;
+    background-color: #2e2e3e;
+    color: #f5f5f5;
+    min-height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.add-note textarea:focus {
+    outline: none;
+    border-color: #5c6bc0;
+    background-color: #38384a;
+}
+
+.add-note button {
+    align-self: flex-end;
+    padding: 12px 28px;
+    font-size: 1.2rem;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-note button:hover {
+    background-color: #5c6bc0;
+}
+
+.notes-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.note-item {
+    background-color: #2a2a3b;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    word-break: break-word;
+}
+
+.note-item p {
+    margin: 0;
+    white-space: pre-wrap;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.note-item textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 14px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 1px solid #444;
+    background-color: #3a3a4a;
+    color: #f5f5f5;
+    min-height: 100px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.note-item textarea:focus {
+    outline: none;
+    border-color: #5c6bc0;
+    background-color: #444458;
+}
+
+.note-item button {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    color: #82aaff;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0 12px;
+    transition: color 0.3s ease;
+}
+
+.note-item button:hover {
+    color: #bb86fc;
+}
